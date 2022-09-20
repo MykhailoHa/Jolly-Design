@@ -1,0 +1,26 @@
+.subheader {
+	background-color: #FFE4BB;
+	height: 40px;
+}
+
+.subheader-slider--item {
+	margin-top: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider-inner {
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+}
+.subheader-item--text {
+	font-family:'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #414249;
+	margin-left: 8px;
+}

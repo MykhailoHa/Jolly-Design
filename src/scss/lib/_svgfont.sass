@@ -1,0 +1,53 @@
+@font-face
+	font-family: "svgfont"
+	src: url('fonts/svgfont.eot')
+	src: url('fonts/svgfont.eot?#iefix') format('eot'), url('fonts/svgfont.woff') format('woff'), url('fonts/svgfont.woff2') format('woff2'), url('fonts/svgfont.ttf') format('truetype')
+	font-weight: normal
+	font-style: normal
+
+$icon-close: "\EA01"
+$icon-fb: "\EA02"
+$icon-twitteer: "\EA03"
+$icon-pinterest: "\EA04"
+$icon-instagram: "\EA05"
+$icon-shop: "\EA06"
+$icon-youtube: "\EA07"
+$icon-icon-car: "\EA08"
+$icon-icon-guarantee: "\EA09"
+$icon-icon-hand-made: "\EA0A"
+
+
+%icon
+	font-family: "svgfont"
+	font-style: normal
+	font-weight: normal
+	text-rendering: auto
+	speak: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.icon, [class^="icon-"], [class*=" icon-"]
+	@extend %icon
+	display: inline-block
+
+.icon-close:before
+	content: $icon-close
+.icon-fb:before
+	content: $icon-fb
+.icon-twitteer:before
+	content: $icon-twitteer
+.icon-pinterest:before
+	content: $icon-pinterest
+.icon-instagram:before
+	content: $icon-instagram
+.icon-shop:before
+	content: $icon-shop
+.icon-youtube:before
+	content: $icon-youtube
+.icon-icon-car:before
+	content: $icon-icon-car
+.icon-icon-guarantee:before
+	content: $icon-icon-guarantee
+.icon-icon-hand-made:before
+	content: $icon-icon-hand-made

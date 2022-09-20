@@ -1,0 +1,102 @@
+$icons: (0:0)
+$icons: map-merge($icons,(Klarna: (X: -1354px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(amex: (X: -1210px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(apple_pay: (X: -1258px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(google_pay: (X: -1306px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(o_pay: (X: -1402px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(pay1: (X: -1450px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(pay2: (X: -1498px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(pay_pal: (X: -1546px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(pic: (X: -1210px, Y:0px, W: 1024px, H: 1024px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(pic2: (X: 0px, Y:0px, W: 1200px, H: 1200px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,(visa: (X: -1594px, Y:-1034px, W: 38px, H: 24px, TW: 2234px, TH: 1200px, IMG: '../img/sprite.png')))
+
+
+// Gets an attribute from the sass map
+@function icon-attr($icon, $attr)
+	$icon: map-get($icons, $icon)
+	@return map-get($icon, $attr)
+
+@mixin sprite($iconName)
+	background-image: url(icon-attr($iconName, IMG))
+	width: icon-attr($iconName, W)
+	height: icon-attr($iconName, H)
+	background-position: icon-attr($iconName, X) icon-attr($iconName, Y)
+@mixin sprite-position($iconName)
+	background-position: icon-attr($iconName, X) icon-attr($iconName, Y)
+@mixin sprite-retina($iconName)
+	background-image: url(icon-attr($iconName, IMG))
+	$width: icon-attr($iconName, W)
+	$height: icon-attr($iconName, H)
+	width: $width/2
+	height: $height/2
+	$x: icon-attr($iconName, X)
+	$y: icon-attr($iconName, Y)
+	background-position: $x/2 $y/2
+	$tw: icon-attr($iconName, TW)
+	$th: icon-attr($iconName, TH)
+	background-size: $tw/2 $th/2
+
+
+@mixin s($i)
+	+sprite($i)
+@mixin sp($i)
+	+sprite-position($i)
+@mixin sr($i)
+	+sprite-retina($i)
+
+.icon-Klarna
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1354px -1034px
+.icon-amex
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1210px -1034px
+.icon-apple_pay
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1258px -1034px
+.icon-google_pay
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1306px -1034px
+.icon-o_pay
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1402px -1034px
+.icon-pay1
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1450px -1034px
+.icon-pay2
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1498px -1034px
+.icon-pay_pal
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1546px -1034px
+.icon-pic
+	width: 1024px
+	height: 1024px
+	background-image: url('../img/sprite.png')
+	background-position: -1210px 0px
+.icon-pic2
+	width: 1200px
+	height: 1200px
+	background-image: url('../img/sprite.png')
+	background-position: 0px 0px
+.icon-visa
+	width: 38px
+	height: 24px
+	background-image: url('../img/sprite.png')
+	background-position: -1594px -1034px
