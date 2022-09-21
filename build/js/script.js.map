@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","names":["$","document","ready","slick"],"sources":["script.js"],"sourcesContent":["\r\n$(document).ready(function(){\r\n    $('.subheader-slider').slick()\r\n});"],"mappings":"AACAA,CAAC,CAACC,QAAD,CAAD,CAAYC,KAAZ,CAAkB,YAAU;EACxBF,CAAC,CAAC,mBAAD,CAAD,CAAuBG,KAAvB;AACH,CAFD"}
