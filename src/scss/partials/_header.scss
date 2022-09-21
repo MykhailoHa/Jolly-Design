@@ -1,16 +1,19 @@
 .subheader {
 	background-color: #FFE4BB;
 	height: 40px;
+
+}
+.subheader-slider {
+	display: flex;
+	margin: 4px 80px;
+
 }
 
 .subheader-slider--item {
-	margin-top: 4px;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-
+	margin: 0 92px ;
 }
-
 .slider-inner {
 	font-size: 32px;
 	display: flex;
@@ -28,10 +31,9 @@
 .slider-inner span {
 	color: #414249;
 }
-slick-list {
+.slick-list {
 	overflow: hidden;
 }
-
 .slick-track {
 	display: flex;
 }
