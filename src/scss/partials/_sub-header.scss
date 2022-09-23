@@ -1,0 +1,39 @@
+.subheader {
+	background-color: #FFE4BB;
+	height: 40px;
+
+}
+.subheader-slider {
+	display: flex;
+	margin: 4px 80px;
+
+}
+
+.subheader-slider--item {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 92px ;
+}
+.slider-inner {
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+}
+.subheader-item--text {
+	font-family:'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #414249;
+	margin-left: 8px;
+}
+.slider-inner span {
+	color: #414249;
+}
+.slick-list {
+	overflow: hidden;
+}
+.slick-track {
+	display: flex;
+}
