@@ -8,12 +8,6 @@
       <change beforePath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/subheader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/subheader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_partials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_partials.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/lib/_svgfont.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/_svgfont.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       <workItem from="1663779606207" duration="977000" />
       <workItem from="1663954125352" duration="2941000" />
       <workItem from="1664007467611" duration="11543000" />
-      <workItem from="1664098974835" duration="661000" />
+      <workItem from="1664098974835" duration="2920000" />
     </task>
     <servers />
   </component>
