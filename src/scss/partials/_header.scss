@@ -1,0 +1,48 @@
+.header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414249;
+}
+.main-header--icons {
+  font-size: 24px ;
+}
+.main-header--icons:hover {
+  color: #FF8F8F;
+}
+
+
+
+
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1.66% 5.55% ;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-main--item {
+  display: flex;
+  & span {
+    color: #414249;
+    margin-left: 2px;
+  }
+}
+
+.header-main--item  .phone-number {
+  color: #FF8F8F;
+
+}
+
+
+.header-main-menu {
+  display: flex;
+}
