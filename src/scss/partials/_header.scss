@@ -17,10 +17,9 @@
 .icon-icon-user {
   border: 1px solid black;
 }
-
-
-
-
+.icon-icon-user:hover {
+  border: 1px solid #FF8F8F;
+}
 
 .header-wrapper {
   display: flex;
@@ -33,13 +32,22 @@
   justify-content: space-between;
 
 }
+.lang-choise-item {
+  padding: 8px 16px ;
+  color: #414249;
+}
+
+.lang-sub--menu{
+  border: 1px solid #E2E2E2;
+  display: none;
+}
+
 .header-main--item {
   display: flex;
   & span {
     color: #414249;
   }
 }
-
 .header-main--item  .phone-number {
   color: #FF8F8F;
   margin-left: 2px;
@@ -67,5 +75,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+}
+.header-menu--list {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
