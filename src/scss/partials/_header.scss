@@ -4,8 +4,8 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: #414249;
 }
 .main-header--icons {
@@ -36,12 +36,22 @@
   padding: 8px 16px ;
   color: #414249;
 }
+.drop-down {
+  align-items: center;
+  justify-content: center;
+}
+.drop-down--choise{
 
+  position: relative;
+}
 .lang-sub--menu{
   border: 1px solid #E2E2E2;
   display: none;
+  position: absolute;
 }
-
+.drop-down--choise:hover .lang-sub--menu {
+  display: block;
+}
 .header-main--item {
   display: flex;
   & span {
@@ -82,3 +92,45 @@
   align-items: center;
   justify-content: space-between;
 }
+ a {
+   color: #414249;
+ }
+a:hover {
+  color: #FF8F8F;
+}
+
+.drop-down {
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  display: none;
+  margin-top:24px ;
+  padding:  16px 16px 0 16px ;
+  border: 1px solid #E2E2E2;
+  background-color: #fff;
+}
+.drop-down:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content--item {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #414249;
+  width: 150px;
+  line-height: 18px;
+  text-transform: none;
+
+}
+.dropdown-content li {
+  padding-bottom: 16px;
+}
+.icon-dropdown2 {
+  font-size: 5px;
+  color: pink;
+  margin-left: 8px;
+}
+
