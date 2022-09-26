@@ -6,12 +6,15 @@
       <change beforePath="$PROJECT_DIR$/build/css/fonts/svgfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/fonts/svgfont.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/fonts/svgfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/fonts/svgfont.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_partials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_partials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/discower-the-new-way.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/discower-the-new-way.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_discower-the-new-way.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_discower-the-new-way.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,8 @@
       <workItem from="1664098974835" duration="10215000" />
       <workItem from="1664120688731" duration="8995000" />
       <workItem from="1664183463600" duration="2758000" />
-      <workItem from="1664208596189" duration="5778000" />
+      <workItem from="1664208596189" duration="6772000" />
+      <workItem from="1664218271199" duration="3283000" />
     </task>
     <servers />
   </component>

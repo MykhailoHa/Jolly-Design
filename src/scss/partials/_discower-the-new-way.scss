@@ -1,0 +1,34 @@
+.discover-block--slider {
+  position: relative;
+  & .slick-arrow {
+    position: absolute;
+    z-index: 8;
+  }
+}
+.discover-block--container {
+  position: relative;
+}
+.discover_next {
+  right: 0;
+  top: 50%;
+}
+.discover_prev {
+  left:0;
+  top: 50%;
+}
+.discover-block-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 8;
+
+}
+h1 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 88px;
+  color: #FFFFFF;
+}

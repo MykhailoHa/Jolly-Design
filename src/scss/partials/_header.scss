@@ -109,6 +109,7 @@ a:hover {
   padding:  16px 16px 0 16px ;
   border: 1px solid #E2E2E2;
   background-color: #fff;
+  z-index: 10;
 }
 .drop-down:hover .dropdown-content{
   display: block;
