@@ -9,12 +9,12 @@
   position: relative;
 }
 .discover_next {
-  right: 0;
-  top: 50%;
+  right: 32px;
+  top: 43%;
 }
 .discover_prev {
-  left:0;
-  top: 50%;
+  left:32px;
+  top: 43%;
 }
 .discover-block-inner {
   display: flex;
@@ -31,4 +31,8 @@ h1 {
   font-size: 64px;
   line-height: 88px;
   color: #FFFFFF;
+}
+.discover-block-btns {
+  display: flex;
+  gap: 32px;
 }
