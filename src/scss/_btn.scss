@@ -9,11 +9,12 @@
 	text-align: center;
 	text-decoration: none;
 	padding: 0 20px;
-	transition: all .3 ease;
+	transition: all .3s ease;
 	outline: none;
 	cursor: pointer;
 	border: none;
 	border-radius: 38px;
+	text-transform: uppercase;
 
 	&:hover,
 	&:active {
@@ -42,11 +43,26 @@
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: 0.04em;
-	text-transform: uppercase;
 	color: #E86E6E;
 	background:#FFE4BB;
 }
-
-
-
+.discover-btn-Shop_now , .discover-btn-About_us {
+	height: 56px;
+	width: 180px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+.discover-btn-Shop_now  {
+	background: #FF8F8F;
+	color: white;
+}
+.discover-btn-About_us {
+    background:#FFE4BB ;
+	color: #E86E6E;
+}
 

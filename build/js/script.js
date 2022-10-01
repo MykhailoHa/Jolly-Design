@@ -5,7 +5,8 @@ $(document).ready(function () {
   });
   $('.discover-block--slider').slick({
     prevArrow: "<img src='img/svg/icons/Chevron-left-large.png' class='discover_prev' >",
-    nextArrow: "<img src='img/svg/icons/Chevron-right-large.png' class='discover_next' >"
+    nextArrow: "<img src='img/svg/icons/Chevron-right-large.png' class='discover_next' >",
+    dots: true
   });
 });
 //# sourceMappingURL=script.js.map
