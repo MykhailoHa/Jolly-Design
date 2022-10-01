@@ -9,12 +9,8 @@
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/discower-the-new-way.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/discower-the-new-way.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_discower-the-new-way.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_discower-the-new-way.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_partials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_partials.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

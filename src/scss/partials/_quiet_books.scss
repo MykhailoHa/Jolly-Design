@@ -1,0 +1,27 @@
+.quiet_books {
+  background-color: #CEE8FF;
+}
+.quiet_books-inner {
+  margin: calc(120/1440*100%) calc(80/1440*100%);
+}
+
+.quiet_books-descr {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #105393;
+}
+
+
+.quiet_books-title {
+  color: #105393;
+}
+.quiet_books-text {
+  margin-top: 10px;
+}
