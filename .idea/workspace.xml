@@ -9,8 +9,8 @@
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_partials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_partials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/quiet_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/quiet_books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,9 @@
       <workItem from="1664183463600" duration="2758000" />
       <workItem from="1664208596189" duration="6772000" />
       <workItem from="1664218271199" duration="3283000" />
+      <workItem from="1664729622447" duration="1276000" />
+      <workItem from="1664904724568" duration="5233000" />
+      <workItem from="1664987428488" duration="2813000" />
     </task>
     <servers />
   </component>
