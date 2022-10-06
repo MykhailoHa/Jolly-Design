@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/quiet_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/quiet_books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1664729622447" duration="1276000" />
       <workItem from="1664904724568" duration="5233000" />
       <workItem from="1664987428488" duration="6048000" />
-      <workItem from="1665076496422" duration="3808000" />
+      <workItem from="1665076496422" duration="5354000" />
     </task>
     <servers />
   </component>
