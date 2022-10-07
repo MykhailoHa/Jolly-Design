@@ -1,3 +1,6 @@
+.quiet_books-container {
+  overflow: hidden;
+}
 .quiet_books {
   background-color: #CEE8FF;
 }
@@ -30,7 +33,7 @@ h3 {
 .quiet_books-text {
   margin-top: 10px;
 }
-.books-item--title{
+h4{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;

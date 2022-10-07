@@ -111,8 +111,9 @@ a:hover {
   background-color: #fff;
   z-index: 10;
 }
-.drop-down:hover .dropdown-content{
+.drop-down:hover .dropdown-content {
   display: block;
+
 }
 
 .dropdown-content--item {
@@ -122,8 +123,7 @@ a:hover {
   line-height: 18px;
   color: #414249;
   width: 150px;
-  line-height: 18px;
-  text-transform: none;
+
 
 }
 .dropdown-content li {
