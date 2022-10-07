@@ -8,13 +8,7 @@
       <change beforePath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/fonts/svgfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/how_books_are_made.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/how_books_are_made.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/quiet_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/quiet_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_how_books_are_made.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_how_books_are_made.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_quiet_books.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,7 @@
       <workItem from="1664904724568" duration="5233000" />
       <workItem from="1664987428488" duration="6048000" />
       <workItem from="1665076496422" duration="7270000" />
-      <workItem from="1665160876482" duration="5175000" />
+      <workItem from="1665160876482" duration="6476000" />
     </task>
     <servers />
   </component>
