@@ -9,7 +9,8 @@ $(document).ready(function () {
     dots: true
   });
   $('.retailer_stores-block--slider').slick({
-    dots: true
+    dots: true,
+    arrows: false
   });
 });
 //# sourceMappingURL=script.js.map
