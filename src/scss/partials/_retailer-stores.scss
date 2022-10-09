@@ -5,3 +5,17 @@
 .retailer-stores--wrapper{
   margin: calc(120/1440*100%) calc(80/1440*100%);
 }
+.stores-inner {
+  margin-top: calc(84/1280*100%);
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.stores-inner--item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.miniQs {
+  margin-left: calc(63/1280*100%);
+}
