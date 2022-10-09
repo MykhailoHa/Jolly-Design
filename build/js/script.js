@@ -8,8 +8,8 @@ $(document).ready(function () {
     nextArrow: "<img src='img/svg/icons/Chevron-right-large.png' class='discover_next' >",
     dots: true
   });
-   $('.retailer_stores-block--slider').slick({
-   dots: true
+  $('.retailer_stores-block--slider').slick({
+    dots: true
   });
 });
 //# sourceMappingURL=script.js.map
