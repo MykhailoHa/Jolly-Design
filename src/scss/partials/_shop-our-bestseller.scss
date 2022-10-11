@@ -1,4 +1,44 @@
 .shop-our-bestseller__title {
   color: #e86e6e;
+  margin-bottom: 48px;
   text-align: center;
+}
+.bestseller-slider-item {
+  display: flex;
+  flex-direction: column;
+  width:296px ;
+  align-items: center;
+  position: relative;
+  & .bestseller-item-icon {
+    margin-bottom: 8px;
+  }
+  & .seller-book--descr {
+    margin-bottom: 8px;
+  }
+  & .seller-book-price {
+    margin-bottom: 16px;
+  }
+  & span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414249;
+  }
+  & .seller-book-price {
+    font-weight: 600;
+  }
+}
+.seller-book-heart {
+  background-color:#FF8F8F ;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -4px;
+  right: 4px;
 }

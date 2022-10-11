@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/shop-our-bestseller.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/shop-our-bestseller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_btn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_shop-our-bestseller.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_shop-our-bestseller.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,7 @@
       <workItem from="1665160876482" duration="7109000" />
       <workItem from="1665310714219" duration="6811000" />
       <workItem from="1665327043137" duration="9440000" />
-      <workItem from="1665505329527" duration="552000" />
+      <workItem from="1665505329527" duration="4358000" />
     </task>
     <servers />
   </component>
