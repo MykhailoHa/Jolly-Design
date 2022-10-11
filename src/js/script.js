@@ -13,4 +13,8 @@ $(document).ready(function(){
         dots: true,
         arrows: false
     })
+    $('.bestseller-slider').slick({
+        dots: true,
+        arrows: false
+    })
 });

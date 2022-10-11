@@ -1,6 +1,6 @@
 .shop-our-bestseller__title {
   color: #e86e6e;
-  margin-bottom: 48px;
+
   text-align: center;
 }
 .bestseller-slider-item {
@@ -9,6 +9,7 @@
   width:296px ;
   align-items: center;
   position: relative;
+  margin-top: 48px;
   & .bestseller-item-icon {
     margin-bottom: 8px;
   }
@@ -39,6 +40,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -4px;
+  top: -3px;
   right: 4px;
+  z-index: 3;
 }
+
