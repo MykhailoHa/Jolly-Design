@@ -44,4 +44,30 @@
   right: 4px;
   z-index: 3;
 }
+.bestseller-slider .slick-initialized .slick-slider .slick-dotted {
+  position: relative;
+}
+.bestseller-slider .slick-dots {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 8px;
+}
+.bestseller-slider  li  {
+  border-radius: 50%;
+  border: none;
+  background: #FF8F8F;
+  opacity: 0.3;
+  width: 15px;
+  height: 15px;
+}
+.bestseller-slider .slick-active {
+  color:  #FF8F8F;
+  opacity: 1;
+}
 
+.bestseller-slider .slick-dots button {
+  visibility: hidden;
+}
