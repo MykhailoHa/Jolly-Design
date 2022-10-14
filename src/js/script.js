@@ -15,6 +15,11 @@ $(document).ready(function(){
     })
     $('.bestseller-slider').slick({
         dots: true,
-        arrows: false
+        arrows: false,
+        slidesToShow :3,
+        slidesToScroll:1,
+        centerMode : true,
+        focusOnSelect: true,
+        variableWidth: true
     })
 });

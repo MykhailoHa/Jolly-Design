@@ -6,10 +6,10 @@
 .bestseller-slider-item {
   display: flex;
   flex-direction: column;
-  width:296px ;
   align-items: center;
-  position: relative;
-  margin-top: 48px;
+  position: relative;  
+  margin-right:  32px;
+  width: 296px;
   & .bestseller-item-icon {
     margin-bottom: 8px;
   }
@@ -40,10 +40,11 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -3px;
-  right: 4px;
+  top: 16px;
+  right: 17px;
   z-index: 3;
 }
+
 .bestseller-slider .slick-initialized .slick-slider .slick-dotted {
   position: relative;
 }
@@ -54,6 +55,7 @@
   left: 50%;
   transform: translate(-50%);
   gap: 8px;
+  margin-bottom: 120px;
 }
 .bestseller-slider  li  {
   border-radius: 50%;
@@ -71,3 +73,8 @@
 .bestseller-slider .slick-dots button {
   visibility: hidden;
 }
+.bestseller-slider  .slick-list {
+  padding: 0;
+  margin: 48px 0;
+}
+
