@@ -2,6 +2,9 @@
   margin-top: 135px;
 }
 .review-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding:120px 80px 130px ;
 }
 .review-main--picture {
@@ -13,6 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 .review-sub-title {
   font-family: 'Poppins';
@@ -75,15 +79,10 @@ text-align: center;
   z-index: 8;
 }
 .review-slider .review_prev{
-  top: 50%;
-  left: 0;
+  top: 48%;
+  left: 80px;
 }
 .review-slider .review_next{
-  top: 50%;
-  right: 0;
+  top: 48% ;
+  right:80px;
 } 
-//.slick-list {
-//  flex: 0 0 50%;
-//  max-width: 50%;
-//  display: flex;
-//}
