@@ -24,7 +24,8 @@ $(document).ready(function () {
   $('.review-slider').slick({
     prevArrow: "<img src='img/svg/icons/icon-left--big.svg' class='review_prev' >",
     nextArrow: "<img src='img/svg/icons/icon-right--big.svg' class='review_next' > ",
-    slidesToShow: 2
+    slidesToShow: 2,
+    slidesToScroll: 1
   });
 });
 //# sourceMappingURL=script.js.map

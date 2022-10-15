@@ -64,6 +64,26 @@ text-align: center;
 .review-text-left {
   color: #FFFFFF;
 }
-.review-stars {
+ .review-stars {
   margin-bottom: 18px;
 }
+.review-slider  {
+  position: relative;
+}
+.review-slider .slick-arrow {
+  position: absolute;
+  z-index: 8;
+}
+.review-slider .review_prev{
+  top: 50%;
+  left: 0;
+}
+.review-slider .review_next{
+  top: 50%;
+  right: 0;
+} 
+//.slick-list {
+//  flex: 0 0 50%;
+//  max-width: 50%;
+//  display: flex;
+//}
