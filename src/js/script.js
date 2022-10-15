@@ -22,4 +22,9 @@ $(document).ready(function(){
         focusOnSelect: true,
         variableWidth: true
     })
+    $('.review-slider').slick({
+        prevArrow: "<img src='img/svg/icons/icon-left--big.svg' class='review_prev' >",
+        nextArrow: "<img src='img/svg/icons/icon-right--big.svg' class='review_next' > ",
+        slidesToShow :2,
+    })
 });
