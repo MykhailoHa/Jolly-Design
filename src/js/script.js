@@ -28,4 +28,10 @@ $(document).ready(function(){
         slidesToShow:2,
         slidesToScroll:1
     })
+    $('.our_categories-slider').slick({
+        arrows: false,
+        slidesToShow :4,
+        infinite :false,
+        focusOnSelect: false
+    })
 });
