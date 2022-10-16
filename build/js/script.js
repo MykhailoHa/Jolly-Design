@@ -30,8 +30,7 @@ $(document).ready(function () {
   $('.our_categories-slider').slick({
     arrows: false,
     slidesToShow: 4,
-    infinite: false,
-    focusOnSelect: false
+    infinite: false
   });
 });
 //# sourceMappingURL=script.js.map

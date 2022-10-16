@@ -32,6 +32,5 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow :4,
         infinite :false,
-        focusOnSelect: false
     })
 });
