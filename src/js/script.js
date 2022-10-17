@@ -33,4 +33,10 @@ $(document).ready(function(){
         slidesToShow :4,
         infinite :false,
     })
+    $('.meet_our_team-slider').slick({
+        prevArrow: "<img src='img/svg/icons/meet_our_team-slider-prev.svg' class='meet_our_team-slider-prev' >",
+        nextArrow: "<img src='img/svg/icons/meet_our_team-slider-next.svg' class='meet_our_team-slider-next' > ",
+        dots: true
+    })
+   
 });
