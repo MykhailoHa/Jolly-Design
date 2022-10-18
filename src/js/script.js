@@ -34,14 +34,13 @@ $(document).ready(function(){
         infinite :false,
     })
     $('.meet_our_team-slider').slick({
-        prevArrow: "<img src='img/svg/icons/meet_our_team-slider-prev.svg' class='meet_our_team-slider-prev' >",
-        nextArrow: "<img src='img/svg/icons/meet_our_team-slider-next.svg' class='meet_our_team-slider-next' > ",
+         prevArrow: "<img src='img/svg/icons/meet_our_team-slider-prev.svg' class='meet_our_team-slider-prev' >",
+        nextArrow: "<img src='img/svg/icons/meet_our_team-slider-next.svg' class='meet_our_team-slider-next' > ", 
         dots: true,
-        customPaging: function (slider, i) {
+         customPaging: function (slider, i) {
 			var title = $(slider.$slides[i]).data('title');
 			return '<span class="dots__item"><span class="dots__number">0'+ Number(i+1) + '</span>' + title + ' </span>';
-		},
+		}, 
 		dotsClass: 'slider-dots',
     })
-   
 });

@@ -27,12 +27,13 @@
 .meet_our_team-slider .slick-arrow {
   position: absolute;
 }
-.meet_our_team-slider-prev {
-  top: 50%;
+ .meet_our_team-slider-prev {
+  top: 65%;
   left: 80px;
-}
+  z-index: 20;
+} 
 .meet_our_team-slider-next {
-  top: 50%;
+  top: 65%;
   right: 80px;
 }
 .meet_our_team-title::before {
