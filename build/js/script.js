@@ -42,5 +42,9 @@ $(document).ready(function () {
     },
     dotsClass: 'slider-dots'
   });
+  $('.follow_us-slider').slick({
+    dots: false,
+    arrows: false
+  });
 });
 //# sourceMappingURL=script.js.map

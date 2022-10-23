@@ -32,6 +32,7 @@ color:#E86E6E ;
   align-items: center;
   justify-content: center;
   gap:4px ;
+  margin-bottom: 45px;
 }
 .icon-ins_fill {
   font-size: 32px;
@@ -45,4 +46,10 @@ font-size: 20px;
 line-height: 30px;
 text-align: center;
 color: #105393;
+}
+.follow_us-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
