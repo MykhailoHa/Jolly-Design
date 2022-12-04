@@ -1,13 +1,14 @@
 .modal_window--container {
   display: flex;
   align-items: center;
-  background-color: #414249;
- 
+  background-color: rgba(65,66,73, 0.6);
 }
+
 .modal_window {
   border: #105393 8px solid;
   background-color: #CEE8FF;
   max-width: 554px;
+  position: relative;
 }
 
 .modal_window__inner {
@@ -16,10 +17,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
 .modal-offer , .modal-descr {
   font-family: 'Poppins';
   color: #105393;
 }
+
 .modal-offer {
 padding-bottom: 8px;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -28,17 +31,21 @@ font-size: 40px;
 line-height: 60px;
 text-align: center;
 }
+
 .modal-descr {
 text-align: center;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 padding-bottom: 24px;
-
 }
+
 .modal-forms {
   display: flex;
   gap: 16px;
   flex-direction: column;
   width: 100%;
+}
+.icon-close {
+  color: #105393;
 }

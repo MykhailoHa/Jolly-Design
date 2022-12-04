@@ -111,4 +111,16 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: -8px;
+  right: -80px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  padding: 0;
+  border: #105393 4px solid;
+  background-color: #CEE8FF;
+}
 
