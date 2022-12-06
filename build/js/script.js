@@ -47,4 +47,17 @@ $(document).ready(function () {
     arrows: false
   });
 });
+document.querySelector(".discover-btn-Shop_now").addEventListener("click", classAddFunction);
+
+function classAddFunction() {
+  const open = document.querySelector(".modal_window--container");
+  open.classList.add("modal_window--open");
+}
+
+document.querySelector(".close-btn").addEventListener("click", classRemoveFunction);
+
+function classRemoveFunction() {
+  const close = document.querySelector(".modal_window--container.modal_window--open");
+  close.classList.remove("modal_window--open");
+}
 //# sourceMappingURL=script.js.map
