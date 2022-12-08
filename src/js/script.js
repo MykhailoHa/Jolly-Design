@@ -54,9 +54,17 @@ function classAddFunction() {
    const open = document.querySelector(".modal_window--container");
    open.classList.add("modal_window--open");
 }
-
+document.querySelector(".modal_window--container ").addEventListener("click", classRemoveFunction);
 document.querySelector(".close-btn").addEventListener("click", classRemoveFunction);
 function classRemoveFunction() {
    const close = document.querySelector(".modal_window--container.modal_window--open");
    close.classList.remove("modal_window--open");
 }
+
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {
+    const close = document.querySelector(".modal_window--container.modal_window--open");
+    close.classList.remove("modal_window--open");
+  }
+})
