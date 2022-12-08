@@ -1,9 +1,19 @@
 @media screen and (max-width: 1199px){
-
+.subheader-slider  {
+  margin: 0 4%;
+}
 }
 @media screen and (max-width: 991px){
 
 }
 @media screen and (max-width: 767px){
 
+}
+@media screen and (max-width: 360px){
+  .subheader-slider  {
+    margin: 0 2%;
+  }
+  .subheader-item--text {
+    font-size: 12px;
+  }
 }
