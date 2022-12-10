@@ -24,7 +24,7 @@
 .header-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 1.66% 5.55% ;
+  margin: 1.66% 5.55%  0;
 }
 .header-main {
   display: flex;
@@ -36,9 +36,13 @@
   padding: 8px 16px ;
   color: #414249;
 }
+.menu-item--link {
+  padding-bottom: 24px;
+}
 .drop-down {
   align-items: center;
   justify-content: center;
+  padding-bottom: 24px;
 }
 .drop-down--choise{
 
@@ -89,8 +93,9 @@
 .header-menu--list {
   margin-top: 24px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+
+  
 }
  a {
    color: #414249;
