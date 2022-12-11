@@ -1,4 +1,4 @@
-.header {
+.header--1400 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -26,11 +26,11 @@
   flex-direction: column;
   margin: 1.66% 5.55%  0;
 }
+
 .header-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 .lang-choise-item {
   padding: 8px 16px ;
@@ -45,7 +45,6 @@
   padding-bottom: 24px;
 }
 .drop-down--choise{
-
   position: relative;
 }
 .lang-sub--menu{
@@ -94,8 +93,6 @@
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
-
-  
 }
  a {
    color: #414249;
@@ -128,8 +125,6 @@ a:hover {
   line-height: 18px;
   color: #414249;
   width: 150px;
-
-
 }
 .dropdown-content li {
   padding-bottom: 16px;
@@ -139,4 +134,26 @@ a:hover {
   color: pink;
   margin-left: 8px;
 }
+
+.header--768_wrapper {
+  padding:24px 4% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--768_left__menu, .header--768_right__menu {
+  display: flex;
+  gap: 48px;
+}
+button.burger-menu {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  
+}
+ .icon-lines_menu_burge{
+  font-size: 24px;
+} 
 
