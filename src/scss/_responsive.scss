@@ -1,3 +1,10 @@
+@media screen and (min-width: 1199px){
+  .header--768 {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 1199px){
 .subheader-slider  {
   margin: 0 4%;

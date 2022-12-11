@@ -56,6 +56,7 @@
   border: 1px solid #E2E2E2;
   display: none;
   position: absolute;
+  background: white;
 }
 
 .drop-down--choise:hover .lang-sub--menu {
@@ -195,8 +196,54 @@ button.burger-menu {
 .mobile_icons__item {
   border-right: 1px solid #FED9D9;
   height: 24px;
-width: 33%;
-display: flex;
-align-items: center;
-justify-content: center;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.header-menu--item--768 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #414249;
+}
+.dropdown-content--item--768 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414249;
+}
+.dropdown-content--768 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+ .dropdown-content--item--768 {
+  display: none;
+} 
+.drop-down--768:hover .dropdown-content--item--768 {
+  display: block;
+}
+.header-menu--768 {
+  padding-top: 24px;
+  padding-left: 30px;
+}
+.header-menu--list--768 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 226px;
+}
+
+
+
+.dropdown-content--768 li:first-child{
+padding-top: 24px;
+}
+
