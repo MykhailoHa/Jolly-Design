@@ -86,3 +86,4 @@ document.addEventListener('keydown', function (e) {
     close.classList.remove("modal_window--open");
   }
 })
+

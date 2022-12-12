@@ -251,9 +251,9 @@ button.burger-menu {
   padding-top: 24px;
 }
 
-.mobile-menu , .header-menu--768 {
+.mobile-wrapper {
 display: none;
 }
-.mobile-menu.open , .header-menu--768.open {
-  display: flex;
+.mobile-wrapper.open {
+  display: block;
   }
